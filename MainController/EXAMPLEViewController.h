@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#define IMAGE_WIDTH 320
+#define IMAGE_HEIGHT 440
+
 @interface EXAMPLEViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
